@@ -1,0 +1,40 @@
+.orangeShadow {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    z-index: 10;
+    .orangeBox{
+        position: absolute;
+        background:@gradientOne;
+        width: 400px;
+        height: 400px;
+        clip-path: polygon(0% 0%, 0 60%, 60% 100%, 100% 0%);
+        .textBox{
+            margin-top: 30px;
+            h1{
+                text-align: center;
+                .headerFont(black,2rem);
+                font-weight: normal;
+            }
+            h2{
+                margin-top: 20px;
+                margin-left:65px;
+                .contentFont(black,1.5rem);
+            }    
+        }
+    }
+}
+.bannerContainer{
+    max-height: 350px;
+    display: flex;
+    .boxSpacer{
+        display: none;
+        width: 430px;
+        background-color: #FDFFFC;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .bannerImg{
+        object-fit: cover;
+        width: 100vw;
+        max-height: 350px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}

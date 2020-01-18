@@ -127,6 +127,11 @@ a img {
 .container {
   margin: 0 auto;
 }
+.greenBlue {
+  background: -webkit-linear-gradient(163.45deg, #8DFFA6 0%, #0057FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .orangeShadow {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   z-index: 10;
@@ -174,18 +179,19 @@ a img {
 .navSection {
   display: flex;
   justify-content: center;
+  margin-top: 25px;
 }
 .navSection button {
   cursor: pointer;
 }
 .contentSlider {
-  width: 80%;
-  max-width: 1000px;
+  width: 85%;
+  max-width: 900px;
   margin: 10px auto;
   overflow: hidden;
 }
 .contentSlider .slider {
-  height: 600px;
+  height: 500px;
   width: 400%;
   display: flex;
   transform: translate(-25%);
@@ -201,13 +207,26 @@ a img {
 .about ul {
   margin-left: 25px;
   column-count: 3;
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+  font-size: 1rem;
 }
 .about ul li {
   margin-bottom: 15px;
 }
+.about p {
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+  font-size: 1rem;
+}
 .about h3 {
-  margin: 25px;
-  color: blue;
+  font-family: 'Ubuntu', sans-serif;
+  color: null;
+  font-size: 1.25rem;
+  margin: 20px;
+  background: -webkit-linear-gradient(163.45deg, #8DFFA6 0%, #0057FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .about .left {
   margin: 20px;
@@ -216,10 +235,36 @@ a img {
 .about .left .myStack {
   height: 25%;
 }
+.about .left .myStack ul {
+  margin-bottom: 70px;
+}
 .about .right {
   margin: 20px;
   width: 48%;
 }
 .about .right .aboutMyself p {
   text-align: center;
+}
+.home {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+.home .textBox {
+  margin: 75px auto;
+  width: 425px;
+}
+.home .textBox h1 {
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+  font-size: 2rem;
+  background: -webkit-linear-gradient(163.45deg, #8DFFA6 0%, #0057FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.home .textBox p {
+  margin-top: 15px;
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+  font-size: 1.25rem;
 }

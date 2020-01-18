@@ -200,6 +200,10 @@ a img {
 }
 .about ul {
   margin-left: 25px;
+  column-count: 3;
+}
+.about ul li {
+  margin-bottom: 15px;
 }
 .about h3 {
   margin: 25px;
@@ -208,6 +212,9 @@ a img {
 .about .left {
   margin: 20px;
   width: 48%;
+}
+.about .left .myStack {
+  height: 25%;
 }
 .about .right {
   margin: 20px;

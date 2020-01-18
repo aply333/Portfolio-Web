@@ -179,7 +179,7 @@ a img {
 .navSection {
   display: flex;
   justify-content: center;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 .navSection button {
   cursor: pointer;
@@ -205,7 +205,7 @@ a img {
   display: flex;
 }
 .about ul {
-  margin-left: 25px;
+  margin-left: 20px;
   column-count: 3;
   font-family: 'Ubuntu', sans-serif;
   color: black;
@@ -263,7 +263,7 @@ a img {
   -webkit-text-fill-color: transparent;
 }
 .home .textBox p {
-  margin-top: 15px;
+  margin-top: 20px;
   font-family: 'Ubuntu', sans-serif;
   color: black;
   font-size: 1.25rem;

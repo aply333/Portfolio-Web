@@ -28,4 +28,5 @@ linkContact.addEventListener('click', () => {
 linkBlog.addEventListener('click', () =>{
     container.style.transition = 'all 0.4s';
     container.style.transform = 'translate(-100%)';
+    window.location.href = './otherPages/blog.html';
 })

@@ -1,26 +1,22 @@
 .about{
     display: flex;
+    p{.contentFont(black,1rem);}
     ul{
         margin-left: @genericGap;
         column-count: 3;
         .contentFont(black,1rem);
-        li{
-            margin-bottom: 15px;
-        }
-    }
-    p{
-        .contentFont(black,1rem);
+        li{margin-bottom: 15px;}
     }
     h3{
         .contentFont(null, 1.25rem);
-        margin: 20px; 
+        margin: @genericGap
         .greenBlue;
     }
     .left{
         margin: @genericGap;
         width: 48%;
         .myStack{
-            height: 25%;
+            height: 300px;
             ul{
                 margin-bottom: 70px;
             }
@@ -29,8 +25,6 @@
     .right{
         margin: @genericGap;
         width: 48%;
-        .aboutMyself{
-            p{text-align: center;}
-        }
+        .aboutMyself{p{text-align: center;}}
     }
 }

@@ -132,3 +132,86 @@ a img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.topicMenu {
+  height: 400px;
+}
+.topicMenu .boxMajorShadow {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.topicMenu .boxMajorShadow .boxMajor {
+  width: 184px;
+  height: 184px;
+  background: linear-gradient(109.18deg, #FFE600 15.8%, rgba(255, 153, 0, 1) 115.8%);
+  clip-path: polygon(100% 0, 100% 46%, 46% 46%, 46% 100%, 0 100%, 0 0);
+  transform: rotate(45deg);
+  position: absolute;
+  left: 150px;
+  top: 50px;
+}
+.topicMenu .box {
+  width: 86px;
+  height: 86px;
+  transform: rotate(45deg);
+  position: absolute;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.topicMenu .box p {
+  transform: rotate(-45deg);
+}
+.topicMenu .blue {
+  font-family: 'Graduate', cursive;
+  color: white;
+  font-size: 1rem;
+  background: linear-gradient(118.4deg, #8DFFA6 0%, #0057FF 100%);
+}
+.topicMenu .orange {
+  font-family: 'Graduate', cursive;
+  color: black;
+  font-size: 1rem;
+  background: linear-gradient(109.18deg, #FFE600 15.8%, rgba(255, 153, 0, 1) 115.8%);
+}
+.topicMenu .one {
+  top: 175px;
+  left: 50px;
+}
+.topicMenu .two {
+  top: 175px;
+  left: 200px;
+}
+.topicMenu .three {
+  top: 175px;
+  left: 350px;
+}
+.topicMenu .four {
+  top: 250px;
+  left: 425px;
+}
+.topicMenu .five {
+  top: 250px;
+  left: 125px;
+}
+.topicMenu .six {
+  top: 250px;
+  left: 275px;
+}
+.frontText {
+  text-align: center;
+}
+.frontText h1 {
+  font-family: 'Graduate', cursive;
+  color: black;
+  font-size: 3.5rem;
+}
+.frontText h2 {
+  font-family: 'Graduate', cursive;
+  color: black;
+  font-size: 1.5rem;
+}
+.frontText h3 {
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+  font-size: 1rem;
+}
+.container .left {
+  width: 550px;
+}
